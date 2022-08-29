@@ -32,5 +32,7 @@
     "psr-4": {
       "Crmdesenvolvimentos\\ApiBraspress\\Tests\\": "tests/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
