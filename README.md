@@ -1,2 +1,2 @@
 # api-braspress
-Api para cotação de frete junto a Transportadora Braspress
+Api para cotação de frete e rastreamento junto a Transportadora Braspress
