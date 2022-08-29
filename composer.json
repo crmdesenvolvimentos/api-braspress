@@ -1,0 +1,36 @@
+{
+  "name": "crmdesenvolvimentos/api-braspress",
+  "description": "Api para cotação de frete e rastreamento junto a Transportadora Braspress",
+  "type": "project",
+  "keywords": [
+    "braspress",
+    "api",
+    "frete",
+    "freight"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crmdesenvolvimentos\\ApiBraspress\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Célio Martins",
+      "email": "crmdesenvolvimentos@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Crmdesenvolvimentos\\ApiBraspress\\Tests\\": "tests/"
+    }
+  }
+}
