@@ -438,7 +438,8 @@ class Freight extends AbstractLibrary
     public function _toArray()
     {
         $data = parent::_toArray();
-        unset($data['braspress'], $data['data'], $data['cubagem'], $data['price'], $data['data'], $data['error'], $data['errorList']);
+        unset($data['braspress'], $data['data'], $data['cubagem'], $data['price'], $data['data']);
+        unset($data['error'], $data['errorList'], $data['response']);
         return $data;
     }
 
