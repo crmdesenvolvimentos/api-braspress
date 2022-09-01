@@ -65,6 +65,7 @@ class Request
             [
                 'auth' => [$this->braspress->user, $this->braspress->password],
                 'Content-Type' => 'application/json',
+                'connect_timeout' => $this->braspress->timeout,
                 'json' => $data
             ]
         );

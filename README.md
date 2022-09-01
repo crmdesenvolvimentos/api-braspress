@@ -22,6 +22,7 @@ use Crmdesenvolvimentos\ApiBraspress\Braspress;
 $api = new Braspress();
 $api
     ->setEnvironment(Braspress::DEVELOPMENT)
+    ->setTimeout(10)
     ->setMode(Braspress::MODE_FREIGHT)
     ->setCnpjRemetente('60701190000104')
     ->setUser('user')

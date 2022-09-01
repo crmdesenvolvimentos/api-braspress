@@ -64,6 +64,11 @@ class Braspress
     public $environment = 'production';
 
     /**
+     * @var int $timeout
+     */
+    public $timeout = 5;
+
+    /**
      * Set API call mode
      * Setar modo de chamadas da api
      *
@@ -137,6 +142,16 @@ class Braspress
             throw new \Exception('Ambiente inválido');
         }
 
+        return $this;
+    }
+
+    /**
+     * @param int $timeout
+     * @return Braspress
+     */
+    public function setTimeout($timeout)
+    {
+        $this->timeout = (int)$timeout;
         return $this;
     }
 
